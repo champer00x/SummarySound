@@ -17,30 +17,8 @@ YouTube / Video / Audio
 
 ```text
 SummarySound/
-│
-├── segments/(thư mục test)
-│   └── <file_name>/
-│       ├── _converted_16k_mono.wav
-│       ├── segment_001.wav
-│       ├── segment_002.wav
-│       ├── ...
-│       ├── batches/
-│       │   ├── batch_001.wav
-│       │   └── ...
-│       ├── batch_001_result.txt
-│       └── all_batch_results.json
-│
-├── segments1/(thư mục test, cấu trúc tương tự segments)
-│   
-│
-├── youtube_downloads/
-│   └── file tải từ YouTube
-│
-├── 18t4 BC công nghệ.m4a
-│   └── audio input hiện tại
-│
-├── input_16k.wav
-│   └── file WAV test
+
+├── segments(thư mục test)
 │
 ├── create_segments.py
 │   └── script cắt audio bằng Silero VAD
