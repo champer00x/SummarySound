@@ -1,0 +1,21 @@
+```txt
+# Core
+torch
+torchaudio
+numpy
+
+# Silero VAD
+silero-vad
+
+# Gemini API
+google-genai
+
+# Environment variables
+python-dotenv
+
+# YouTube download
+yt-dlp
+
+# FFmpeg wrapper (optional)
+ffmpeg-python
+```
