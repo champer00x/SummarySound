@@ -18,8 +18,6 @@ YouTube / Video / Audio
 ```text
 SummarySound/
 
-├── segments(thư mục test)
-│
 ├── create_segments.py
 │   └── script cắt audio bằng Silero VAD
 │
