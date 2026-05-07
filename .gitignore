@@ -3,7 +3,6 @@ __pycache__/
 *.pyc
 .env
 
-segments/
 segments1/
 youtube_downloads/
 

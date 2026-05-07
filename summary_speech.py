@@ -257,8 +257,8 @@ import glob
 load_dotenv()
 INPUT_PATH = r"C:\Users\ADMIN\RAG_TEST\input.mp4"
 FILE_NAME = Path(INPUT_PATH).stem
-#OUTPUT_DIR = os.path.join(r"C:\Users\ADMIN\RAG_TEST\segments", FILE_NAME)
-OUTPUT_DIR = r"C:\Users\ADMIN\RAG_TEST\SummarySound\segments" #bỏ comment nếu muốn dùng segments1 để test với batches có sẵn
+OUTPUT_DIR = os.path.join(r"C:\Users\ADMIN\RAG_TEST\segments", FILE_NAME)
+#OUTPUT_DIR = r"C:\Users\ADMIN\RAG_TEST\SummarySound\segments" #bỏ comment nếu muốn dùng segments để test với batches có sẵn
 
 if __name__ == "__main__":
     segment_paths = sorted(
